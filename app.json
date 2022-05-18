@@ -1,0 +1,23 @@
+{
+    "name": "MirrorX",
+    "description": "Telegram MirrorX Bot",
+    "keywords": [
+      "telegram",
+      "Mirror",
+      "Bot"
+    ],
+    "repository": "https://github.com/bowchaw/Mix",
+    "website": "https://github.com/bowchaw/Mix",
+    "success_url": "https://github.com/bowchaw/Mix",
+    "stack": "container",
+    "env": {
+      "BOT_TOKEN": {
+        "description": "Get your bot token by talking to @Botfather",
+        "required": false
+      },
+      "OWNER_ID": {
+        "description": "Your telegram ID (not username)",
+        "required": false
+      }
+   }
+}
