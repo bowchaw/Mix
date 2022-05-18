@@ -29,6 +29,7 @@ class _BotCommands:
         self.CloneCommand = getCommand('CLONE_COMMAND', 'clonex')
         self.WatchCommand = getCommand('WATCH_COMMAND', 'watchx')
         self.TarWatchCommand = getCommand('TARWATCH_COMMAND', 'tarwatchx')
+        self.ShellCommand = getCommand('SHELL_COMMAND', 'shell')
         self.deleteCommand = getCommand('DELETE_COMMAND', 'delx')
 
 BotCommands = _BotCommands()
